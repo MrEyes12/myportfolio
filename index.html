@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="home">
+    <button id="open" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    <button id="close" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></button>
+    <div id="name">
+      <h1>Nayan Gaur</h1>
+      <p>I'm Web Developer</p>
+    </div>
+    <div id="mysidenav">
+      <div class="profile">
+        <img id="profile-img" src="img/nayan1.JPG" alt="" srcset="">
+        <h3>Nayan Gaur</h3>
+        <div class="social-link">
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-skype"></a>
+        </div>
+      </div>
+
+      <!-- side links -->
+      <ul id="sidenav_link">
+        <li><a href=""><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+        <li><a href="#about"><i class="fa fa-user" aria-hidden="true"></i>About</a></li>
+        <li><a href="#skills"><i class="fa fa-cog" aria-hidden="true"></i>Skills</a></li>
+        <li><a href="#resume"><i class="fa fa-file-o" aria-hidden="true"></i>Resume</a></li>
+        <!-- <li><a href=""><i class="fa fa-newspaper-o" aria-hidden="true"></i>Portfolio</a></li> -->
+        <li><a href="#contact"><i class="fa fa-address-card" aria-hidden="true"></i>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <main id="main">
+
+    <!-- about section -->
+    <section id="about">
+      <div id="container">
+        <div class="section-title">
+          <h2>About</h2>
+          <p> </p>
+        </div>
+        <div class="flex-container">
+          <div id="img_row">
+            <img src="/img/nayan1.JPG" alt="">
+          </div>
+          <div id="details">
+            <h1>UI/UX Designer & Web Developer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+            <div class="flex-container">
+              <div class="">
+                <ul class="ul1">
+                  <li><strong>Birthday:</strong> 1 May 1995</li>
+                  <li><strong>Phone:</strong> +919584305491</li>
+                  <li><strong>City:</strong>  Gwalior, MP</li>
+                </ul>
+              </div>
+              <div class="">
+                <ul id="ul2" class="ul1">
+                  <li><strong>Age:</strong> 23</li>
+                  <li><strong>Degree:</strong> Bachelor</li>
+                  <li><strong>Email:</strong> nayangaur0@gmail.com</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section id="skills">
+      <div class="skills_about">
+        <h1>Skills</h1>
+        <p>Ability to create innovative, interactive & creative web design to boost customer engagement.
+          Sound knowledge in HTML5, CSS, RWD, JavaScript, PHP, MySQL & other UI freameworks. Build reusable
+          code for future use while optimising web performance.
+        </p>
+      </div>
+      <div id="skills_flex">
+        <div>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>RWD</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- resume section -->
+
+    <section id="resume">
+      <div id="resume_tag">
+        <h1>Resume</h1>
+      </div>
+      <div id="resume_flex">
+        <div class="align-resume">
+          <h3 class="resume_title">Summery</h3>
+          <div class="resume_item">
+            <h4>Nayan Gaur</h4>
+            <p id="resume_about">To attain a reputed position where I can contribute my skills and techniques in achieving the goals of
+              the organisation. I want to be a part of the team that excels in work towards the achievement of the goal
+              which in the process will satisfy my craving for learning</p>
+          </div>
+          <h3 class="resume_title">Education</h3>
+          <div class="resume_item">
+            <h4>Certified Software program in Web development</h4>
+            <h5>2018-2019</h5>
+            <address>Institute of Advance Network technology (IANT),Gwalior, MP</address>
+          </div>
+          <div class="resume_item">
+            <h4>Bachelor of Computer Science</h4>
+            <h5>2015-2018</h5>
+            <address>Govt. Science college Gwalior</address>
+          </div>
+        </div>
+        <div class="align-resume">
+          <h3 class="resume_title">Professional Experience</h3>
+          <div class="resume_item">
+            <h4>INTERNSHIP</h4>
+            <h5>2019-2020</h5>
+            <i>
+              <p>Synclusive innovation,</p>
+              <p>Noida,Uttar Pradesh</p>
+            </i>
+            <ul>
+              <li>Develop front-end web application using HTML/CSS and JavaScript.</li>
+              <li>Development with cross browser/cross device compatibility in graded browser support environment.</li>
+              <li>Good knowledge in PHP and MySQL.</li>
+            </ul>
+          </div>
+          <div class="resume_item">
+            <h4>Certification</h4>
+            <ul>
+              <li><strong>HTML: </strong>Star Certification</li>
+              <li><strong>PHP: </strong>Star Certification</li>
+              <li><strong>JavaScript: </strong>IANT Certification</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section id="contact">
+      <div id="contact_tag">
+        <h1>Contact</h1>
+      </div>
+      <div id="contact_flex">
+        <div class="contact_div" id="location">
+          <div id="info">
+            <div id="address">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <h4>Location:</h4>
+              <p>Gwalior, MP</p>
+            </div>
+            <div id="email">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <h4>Email:</h4>
+              <p>nayangaur0@gmail</p>
+            </div>
+            <div id="phone">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <h4>Contact Number:</h4>
+              <p>+919584305491</p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14455.366691132167!2d77.86460026985512!3d25.07335487900081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397a017b1a4baec9%3A0xc51d355d1335beb6!2sRannod%2C%20Madhya%20Pradesh%20473781!5e0!3m2!1sen!2sin!4v1615626066857!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+        <div class="contact_div">
+          <div id="form_column">
+            <form action="">
+              <div id="form-row">
+                <div>
+                  <label for="name">First Name:</label>
+                  <input type="text" id="fname" class="form_control" name="name">
+                </div>
+                <div>
+                  <label for="Email">Email:</label>
+                  <input type="email" class="form_control" name="email">
+                </div>
+              </div>
+              <label for="subject">Subject</label><br>
+              <input type="text" class="form_control" name="subject">
+              <label for="msg">Message:</label><br>
+              <textarea class="form_control" name="msg" cols="40" rows="15"></textarea><br>
+              <input id="button" type="submit" value="Send Message">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Designed by Nayan  </p>
+  </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
