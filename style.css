@@ -131,7 +131,6 @@ i{
 @media screen and (max-width:1200px){
     
     #mysidenav{
-        /* display: none; */
         width: 0px;
     }
     #sidenav_link i{
@@ -349,6 +348,15 @@ i{
     padding:0px 0 10px 0;
 }
 
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+  }
 @media (max-width:990px){
     #resume_flex{
         flex-direction: column;

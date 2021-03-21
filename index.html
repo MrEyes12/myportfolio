@@ -15,7 +15,7 @@
     <button id="close" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></button>
     <div id="name">
       <h1>Nayan Gaur</h1>
-      <p>I'm Web Developer</p>
+      <p>I'm a Web Developer</p>
     </div>
     <div id="mysidenav">
       <div class="profile">
@@ -32,12 +32,12 @@
 
       <!-- side links -->
       <ul id="sidenav_link">
-        <li><a href=""><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-        <li><a href="#about"><i class="fa fa-user" aria-hidden="true"></i>About</a></li>
-        <li><a href="#skills"><i class="fa fa-cog" aria-hidden="true"></i>Skills</a></li>
-        <li><a href="#resume"><i class="fa fa-file-o" aria-hidden="true"></i>Resume</a></li>
+        <li><a class="hide" href=""><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+        <li><a class="hide" href="#about"><i class="fa fa-user" aria-hidden="true"></i>About</a></li>
+        <li><a class="hide" href="#skills"><i class="fa fa-cog" aria-hidden="true"></i>Skills</a></li>
+        <li><a class="hide" href="#resume"><i class="fa fa-file-o" aria-hidden="true"></i>Resume</a></li>
         <!-- <li><a href=""><i class="fa fa-newspaper-o" aria-hidden="true"></i>Portfolio</a></li> -->
-        <li><a href="#contact"><i class="fa fa-address-card" aria-hidden="true"></i>Contact</a></li>
+        <li><a class="hide" href="#contact"><i class="fa fa-address-card" aria-hidden="true"></i>Contact</a></li>
       </ul>
     </div>
   </div>
@@ -50,7 +50,6 @@
       <div id="container">
         <div class="section-title">
           <h2>About</h2>
-          <p> </p>
         </div>
         <div class="flex-container">
           <div id="img_row">
@@ -58,8 +57,6 @@
           </div>
           <div id="details">
             <h1>UI/UX Designer & Web Developer</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.</p>
             <div class="flex-container">
               <div class="">
                 <ul class="ul1">
@@ -101,7 +98,7 @@
         </div>
         <div>
           <ul>
-            <li>RWD</li>
+            <li>JQery</li>
             <li>PHP</li>
             <li>MySQL</li>
           </ul>
@@ -134,6 +131,7 @@
             <h4>Bachelor of Computer Science</h4>
             <h5>2015-2018</h5>
             <address>Govt. Science college Gwalior</address>
+            <a class="btn" target="_blank" href="Nayan.pdf"><i class="fa fa-download"></i> Download</a>
           </div>
         </div>
         <div class="align-resume">
@@ -215,9 +213,11 @@
     </section>
   </main>
   <footer>
-    <p>Designed by Nayan  </p>
+    <p>Designed by &#169;Nayan  </p>
   </footer>
 </body>
+<script src="/js/jquery-3.6.0.min.js"></script>
 <script src="script.js"></script>
+
 
 </html>

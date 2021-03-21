@@ -6,7 +6,6 @@ const openNav = () => {
     if (showhide.style.width = "0px") {
         showhide.style.width = "300px";
         document.getElementById("close").style.display="block";
-        document.getElementsByTagName("body")[0].style.position="fixed";
     }
 }
 
@@ -15,6 +14,16 @@ const closeNav=()=>{
     if (showhide.style.width = "300px") {
         showhide.style.width = "0px";
         document.getElementById("close").style.display="none";
-        document.getElementsByTagName("body")[0].style.position="";
     }
 }
+
+$(document).ready(function(){
+    $(window).on("resize",function(){
+    if($(window).width()<786){
+    $(".hide").click(function(){
+        $("#mysidenav").css("width","0px");
+        document.getElementById("close").style.display="none";
+    });
+}
+});
+});
