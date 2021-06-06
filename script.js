@@ -3,6 +3,7 @@ const openNav = () => {
     var showhide = document.getElementById("mysidenav");
     if (showhide.style.width = "0px") {
         showhide.style.width = "300px";
+        document.getElementsByTagName("BODY")[0].style.overflow="hidden"; //for stop scrolling
         document.getElementById("close").style.display = "block";
     }
 }
@@ -11,6 +12,7 @@ const closeNav = () => {
     var showhide = document.getElementById("mysidenav");
     if (showhide.style.width = "300px") {
         showhide.style.width = "0px";
+        document.getElementsByTagName("BODY")[0].style.overflow="scroll";
         document.getElementById("close").style.display = "none";
     }
 }
@@ -21,6 +23,7 @@ $(document).ready(function () {
             $(".hide").click(function () {
                 $("#mysidenav").css("width", "0px");
                 document.getElementById("close").style.display = "none";
+                document.getElementsByTagName("BODY")[0].style.overflow="scroll";
             });
         }
     });
